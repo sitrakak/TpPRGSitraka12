@@ -15,6 +15,10 @@ public class Bean {
         return nombre;
     }
 
+    public String afficher() {
+        return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
+    }
+    
     public void setNombre(int nombre) {
         this.nombre = nombre;
     }
